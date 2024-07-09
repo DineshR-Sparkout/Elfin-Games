@@ -6,8 +6,9 @@
 body{
     font-family: "Syne", sans-serif;
 }
-.container-fluid{
+.full{
     padding: 8px 75px;
+    border-bottom: solid 1px #E5E5EA;
 }
 .dropdown-toggle::after{
     display: none;
