@@ -35,7 +35,7 @@ body{
     color:  #23273B;
     font-size: 16px;
 }
-.btn-wallet:hover{
+.btn-wallet:hover,.explore-btn:hover{
     color: #F6D103;
     background-color: #23273B;
 }
@@ -50,4 +50,125 @@ body{
     bottom: -22px;
     left: -22px;
 }
+.mini-section{
+    padding:87px 0;
+    background-image: url(../images/gradient-bg.jpg);
+    background-size:50% 100%;
+    background-repeat: repeat;
+}
+.mini-head{
+    color: #23273B;
+    letter-spacing: -1.2px;
+    padding-bottom: 32px;
+}
+.mini-head-pad{
+    padding-right: 20px;
+}
+.mini-text{
+    color: rgba(35, 39, 59, 0.70);
+    font-size: 18px;
+    text-indent: 35px;
+    padding-bottom: 32px;
+}
+.mini-text-pad{
+    padding-right: 85px;
+}
+.explore-btn{
+    font-size: 18px;
+    color: #23273B;
+    padding: 12px 25px;
+    background-color: #F6D103;
+}
+.img-content{
+    margin-top: 58px;
+}
+.user-para{
+    font-size: 20px;
+    color: #2E2F3A;
+}
+.user-group{
+    gap: 19px;
+}
+.card-section{
+    background-color: #F0F5FF;
+    padding: 54px 0;
+}
+.card{
+    padding: 18px 14px;
+    box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
+}
+.card-row{
+    gap: 20px;
+}
+.card-title{
+    color: #23273B;
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+}
+.card-text{
+    color: rgba(35, 39, 59, 0.70);
+    font-size: 16px;
 
+}
+.gaming-section{
+    padding-top: 150px;
+    padding-bottom: 72px;
+}
+
+.game-head{
+    padding-right: 140px;
+}
+.game-text{
+    padding-right: 140px;
+}
+.mini-card{
+    gap: 32px;
+    padding: 32px 25px;
+    background-color: #F7FAFF;
+}
+.mini-card.active{
+    border: 1px solid #F6D103;
+    box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
+}
+.mini-card-head{
+    font-size: 22px;
+    color: #23273B;
+}
+.mini-card-text{
+    color: rgba(35, 39, 59, 0.70);
+    line-height: 21px;
+    padding-right: 10px;
+}
+.market-section{
+    padding-bottom: 150px;
+}
+.platform-section{
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+    padding: 150px 0;
+    margin-bottom: 150px;
+}
+.ball{
+    bottom: -200px;
+    left: 162px;
+}
+.stone-ball{
+    top: -270px;
+}
+.digital-text{
+    padding-right: 150px;
+    text-indent: 0;
+}
+.digital-section{
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+    padding: 27px 0;
+    margin-bottom: 150px;
+}
+.digital-pad{
+    padding-left: 162px;
+}
+.partner-head{
+    padding-bottom: 68px;
+}
+.elfin-gap{
+    gap: 12px;
+}
