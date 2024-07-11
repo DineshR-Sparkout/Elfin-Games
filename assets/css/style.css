@@ -6,21 +6,32 @@
 body{
     font-family: "Syne", sans-serif;
 }
-.full{
+.nav-head{
     padding: 8px 75px;
     border-bottom: solid 1px #E5E5EA;
 }
 .dropdown-toggle::after{
     display: none;
 }
+.cobolt{
+    color: #23273B;
+}
 .nav-text.active{
-    color:  #23273B;
-    font-size: 16px;
+    color: #23273B;
 }
 .nav-text{
     color: rgba(35, 39, 59, 0.70);
-    font-size: 16px;
     padding-bottom: 22px;
+}
+.dropdown-item{
+    background-color:white;
+}
+.dropdown-item:hover{
+    background-color: #F6D103;
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: -40px;
 }
 .nav-text:hover{
     color:  #23273B;
@@ -33,11 +44,14 @@ body{
     padding:8px 25px;
     background-color:  #F6D103;
     color:  #23273B;
-    font-size: 16px;
 }
 .btn-wallet:hover,.explore-btn:hover{
     color: #F6D103;
     background-color: #23273B;
+}
+.bag-icon{
+    width: 14px;
+    height: 14px;
 }
 .nav-item.active::before{
     content: "";
@@ -47,22 +61,29 @@ body{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     position: absolute;
-    bottom: -22px;
+    bottom: -26px;
     left: -22px;
 }
 .mini-section{
-    padding:87px 0;
+    padding:87px 0 86px 0;
     background-image: url(../images/gradient-bg.jpg);
     background-size:50% 100%;
     background-repeat: repeat;
 }
 .mini-head{
-    color: #23273B;
     letter-spacing: -1.2px;
     padding-bottom: 32px;
 }
 .mini-head-pad{
     padding-right: 20px;
+}
+.mini-group {
+    top: -40px;
+    right: 0px;
+}
+.group-doll{
+    width: 100%;
+    height: 500px;
 }
 .mini-text{
     color: rgba(35, 39, 59, 0.70);
@@ -81,6 +102,7 @@ body{
 }
 .img-content{
     margin-top: 58px;
+    gap: 19px;
 }
 .user-para{
     font-size: 20px;
@@ -171,4 +193,76 @@ body{
 }
 .elfin-gap{
     gap: 12px;
+    padding-bottom: 86px;
+}
+.white-btn{
+    background-color: white;
+    margin-right: 20px;
+}
+.white-btn:hover{
+    background-color: #23273B;
+    color: #F6D103;
+}
+.elfin-card{
+    padding: 42px 53px 38px 32px;
+    z-index: 1;
+}
+.elfin-card.active{
+    background-image: url(https://s3-alpha-sig.figma.com/img/5aa4/8987/b63ca076db14c11285f309c4f375e3c0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c2hc9RL9ePJ5w05xUcFTHVZUlJ9en3Ocq7Gks6qm6159bk-dor1OTKPGGYjknIR1TtWU2UrTG8zi8Es7pqoUrZ5n354Y804U61iapQeWUTxHO~v48CB9Jg45V-LtH9vZUL81vWlqFzfn00oyH7cB7bioM88wYrSR70FbO-CzrhrovCiulTW9SAhEYO12MscreY6tcZUmVnbmEtZNX1ro8G-ynrdV03ddn8Fb8Odgc3s952a0QZvFxXQs~X~J160Yyr1KlEw1g4PzXeMDqjX9bODxxN98vgrgB7OkhKEz~7vQJSfU-dhYRQn5BusTtQ3vzvEawi~WOxexwtpJDoMJ~Q__);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.elfin-card.active::before{
+    content: "";
+    background:linear-gradient(0deg, rgba(245, 208, 4, 0.75) 0%, rgba(245, 208, 4, 0.75) 100%); 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    border-radius: 16px;
+}
+.elfin-card{
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+    border: 1px solid #E5E5EA;
+}
+.elfin-emoji-card{
+    padding: 18px 16px 19px 32px;
+}
+.comunity-gap{
+    padding-bottom: 67px;
+}
+.economic-section{
+    padding-bottom: 228px;
+}
+.footer-top-section{
+    padding: 25px 0 23px 0;
+}
+.footer{
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+}
+.connect{
+    padding-bottom: 42px;
+}
+.footer-head{
+    color: #23273B;
+    font-size: 18px;
+    line-height: 24px;
+}
+.footer-gap{
+    gap:100px;
+    padding: 42px 0 0 0;
+}
+.copyright{
+    padding: 14px 0;
+}
+.tree-man{
+    right: -70px;
+    top: -140px;
+}
+.ball-stone{
+    right: 80px;
+    top: -120px;
 }
