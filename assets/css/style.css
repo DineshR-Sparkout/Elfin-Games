@@ -78,6 +78,7 @@ body{
     padding-right: 20px;
 }
 .mini-group {
+    position: absolute;
     top: -40px;
     right: 0px;
 }
@@ -129,8 +130,6 @@ body{
 }
 .card-text{
     color: rgba(35, 39, 59, 0.70);
-    font-size: 16px;
-
 }
 .gaming-section{
     padding-top: 150px;
@@ -265,4 +264,26 @@ body{
 .ball-stone{
     right: 80px;
     top: -120px;
+}
+.dragons{
+    position: relative;
+    z-index: 3;
+}
+.dragons::before{
+    content: "";
+    opacity: 0.75;
+    background-image: url(../images/blur-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    filter: blur(60px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+.dragon-img{
+    padding: 34px 48px 34px 34px;
 }

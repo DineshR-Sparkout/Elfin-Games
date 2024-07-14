@@ -1,3 +1,8 @@
+@media(max-width:1399px){
+    .fs-1{
+        font-size: 42px !important;
+    }
+}
 @media(max-width:1199px){
     .nav-head{
         padding: 8px 50px;
@@ -7,6 +12,28 @@
     }
     .nav-text{
         padding-bottom: 20px;
+    }
+    .fs-1{
+        font-size: 36px !important;
+    }
+    .mini-section{
+        padding:80px 0;
+    }    
+    .mini-text-pad{
+        padding-right: 70px;
+    }
+    .img-content{
+        margin-top: 54px;
+        gap: 16px;
+    }
+    .card-section{
+        padding: 48px 0;
+    }    
+    .card{
+        padding: 16px 12px;
+    }    
+    .card-title{
+        font-size: 22px;
     }
 }
 @media(max-width:992px){
@@ -39,8 +66,56 @@
         width: 12px;
         height: 12px;
     }
-    
-
+    .fs-1{
+        font-size: 30px !important;
+    }
+    .mini-section{
+        padding:70px 0;
+    } 
+    .mini-head{
+        padding-bottom: 28px;
+    }
+    .mini-head-pad{
+        padding-right:0;
+    }
+    .mini-text{
+        font-size: 16px;
+        text-indent: 30px;
+        padding-bottom: 28px;
+    }
+    .mini-text-pad{
+        padding-right: 0;
+    }
+    .explore-btn{
+        font-size: 17px;
+        padding: 10px 22px;
+    } 
+    .img-content{
+        margin-top: 40px;
+        gap: 14px;
+    }  
+    .user-para{
+        font-size: 18px;
+    } 
+    .mini-group {
+        position:static;
+    }    
+    .group-doll{
+        width: 100%;
+        height: auto;
+    }
+    .card-section{
+        padding: 42px 0;
+    }   
+    .card-row{
+        gap: 15px;
+    }     
+    .card{
+        padding: 14px 10px;
+    }    
+    .card-title{
+        font-size: 20px;
+    }
 }
 @media(max-width:768px){
     .btn-wallet{
@@ -55,7 +130,39 @@
     .navbar-nav{
         gap:30px;
     }
- 
+    .fs-1{
+        font-size: 24px !important;
+    }
+    .mini-section{
+        padding:60px 0;
+    }    
+    .mini-head{
+        padding-bottom: 24px;
+    }
+    .mini-text{
+        font-size: 15px;
+        text-indent: 26px;
+        padding-bottom: 24px;
+    }
+    .explore-btn{
+        font-size: 16px;
+        padding: 8px 20px;
+    }  
+    .img-content{
+        margin-top: 30px;
+    }     
+    .user-para{
+        font-size: 16px;
+    }
+    .card-section{
+        padding: 36px 0;
+    }    
+    .card{
+        padding: 12px 8px;
+    }    
+    .card-title{
+        font-size: 18px;
+    }
 }
 @media(max-width:576px){
     .btn-wallet{
@@ -74,7 +181,41 @@
         width: 10px;
         height: 10px;
     }
-    
-
-
+    .fs-1{
+        font-size: 18px !important;
+    }
+    .mini-section{
+        padding:50px 0;
+    }    
+    .mini-head{
+        padding-bottom: 20px;
+    }
+    .mini-text{
+        font-size: 14px;
+        text-indent: 22px;
+        padding-bottom: 20px;
+    }
+    .explore-btn{
+        font-size: 14px;
+        padding: 6px 18px;
+    }    
+    .img-content{
+        margin-top: 20px;
+        gap: 12px;
+    }     
+    .user-para{
+        font-size: 15px;
+    }
+    .card-section{
+        padding: 30px 0;
+    }    
+    .card-row{
+        gap: 10px;
+    }   
+    .card{
+        padding: 10px 6px;
+    }     
+    .card-title{
+        font-size: 16px;
+    }
 }
