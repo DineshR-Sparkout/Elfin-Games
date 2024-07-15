@@ -16,9 +16,6 @@ body{
 .cobolt{
     color: #23273B;
 }
-.nav-text.active{
-    color: #23273B;
-}
 .nav-text{
     color: rgba(35, 39, 59, 0.70);
     padding-bottom: 22px;
@@ -68,7 +65,7 @@ body{
     padding:87px 0 86px 0;
     background-image: url(../images/gradient-bg.jpg);
     background-size:50% 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 .mini-head{
     letter-spacing: -1.2px;
@@ -79,12 +76,29 @@ body{
 }
 .mini-group {
     position: absolute;
-    top: -40px;
+    top: -11px;
     right: 0px;
+}
+.group{
+    height: 500px;
 }
 .group-doll{
     width: 100%;
     height: 500px;
+    position: relative;
+    z-index:3;
+}
+.group-doll::before{
+    content:"";
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-image: url(../images/img-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 64px;
+    right: 0;
+    z-index: -3;
 }
 .mini-text{
     color: rgba(35, 39, 59, 0.70);
@@ -146,8 +160,9 @@ body{
     gap: 32px;
     padding: 32px 25px;
     background-color: #F7FAFF;
+    border: 1px solid transparent;
 }
-.mini-card.active{
+.mini-card:hover{
     border: 1px solid #F6D103;
     box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
 }
@@ -159,6 +174,9 @@ body{
     color: rgba(35, 39, 59, 0.70);
     line-height: 21px;
     padding-right: 10px;
+}
+.mini-card-text:hover{
+    color:  rgba(35, 39, 59, 1);
 }
 .market-section{
     padding-bottom: 150px;
@@ -174,6 +192,7 @@ body{
 }
 .stone-ball{
     top: -270px;
+    right: 250px;
 }
 .digital-text{
     padding-right: 150px;
@@ -205,6 +224,8 @@ body{
 .elfin-card{
     padding: 42px 53px 38px 32px;
     z-index: 1;
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+    border: 1px solid #E5E5EA;
 }
 .elfin-card.active{
     background-image: url(https://s3-alpha-sig.figma.com/img/5aa4/8987/b63ca076db14c11285f309c4f375e3c0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c2hc9RL9ePJ5w05xUcFTHVZUlJ9en3Ocq7Gks6qm6159bk-dor1OTKPGGYjknIR1TtWU2UrTG8zi8Es7pqoUrZ5n354Y804U61iapQeWUTxHO~v48CB9Jg45V-LtH9vZUL81vWlqFzfn00oyH7cB7bioM88wYrSR70FbO-CzrhrovCiulTW9SAhEYO12MscreY6tcZUmVnbmEtZNX1ro8G-ynrdV03ddn8Fb8Odgc3s952a0QZvFxXQs~X~J160Yyr1KlEw1g4PzXeMDqjX9bODxxN98vgrgB7OkhKEz~7vQJSfU-dhYRQn5BusTtQ3vzvEawi~WOxexwtpJDoMJ~Q__);
@@ -223,12 +244,11 @@ body{
     z-index: -3;
     border-radius: 16px;
 }
-.elfin-card{
-    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
-    border: 1px solid #E5E5EA;
-}
 .elfin-emoji-card{
     padding: 18px 16px 19px 32px;
+}
+.text-card{
+    padding: 24px 10px 26px 0;
 }
 .comunity-gap{
     padding-bottom: 67px;
@@ -252,7 +272,7 @@ body{
 }
 .footer-gap{
     gap:100px;
-    padding: 42px 0 0 0;
+    padding-top: 42px;
 }
 .copyright{
     padding: 14px 0;
@@ -260,6 +280,8 @@ body{
 .tree-man{
     right: -70px;
     top: -140px;
+    max-width: 100%;
+    position: absolute;
 }
 .ball-stone{
     right: 80px;
@@ -272,18 +294,66 @@ body{
 .dragons::before{
     content: "";
     opacity: 0.75;
-    background-image: url(../images/blur-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:left;
     filter: blur(60px);
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: -34px;
+    left: -34px;
     z-index: -3;
+    background-image: url(../images/blur-bg.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
-.dragon-img{
-    padding: 34px 48px 34px 34px;
+.ball::before{
+    content: "";
+    background-image: url(../images/ball-bg.png);
+    background-repeat:repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -19px;
+    left: -19px;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+    
 }
+.stone-ball::before{
+    content: "";
+    background-image: url(../images/ball-bg.png);
+    background-repeat:repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -28px;
+    left: -19px;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+}
+.blue-ball{
+    left: 150px;
+    bottom: -200px;
+}
+.owl-item > div {
+    cursor: pointer;
+    filter:brightness(20%);
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    filter: brightness(100%);
+    transition: filter 0.4s ease;
+  }
+  .owl-stage{
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    width: 32px;
+    height: 32px;
+  }
+  .icon-path{
+    fill: #23273B;
+  }
+  .icon-path:hover{
+    fill: #F6D103;
+  }
