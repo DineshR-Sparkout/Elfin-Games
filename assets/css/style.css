@@ -150,10 +150,7 @@ body{
     padding-bottom: 72px;
 }
 
-.game-head{
-    padding-right: 140px;
-}
-.game-text{
+.game-head,.game-text{
     padding-right: 140px;
 }
 .mini-card{
