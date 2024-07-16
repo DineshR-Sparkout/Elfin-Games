@@ -2,25 +2,22 @@
     .fs-1{
         font-size: 42px !important;
     }
-    .stone-ball{
-        top: -225px;
-        right: 250px;
-    }   
-    .ball{
-        bottom: -240px;
-    }     
-    .blue-ball{
-        bottom: -175px;
-    }    
-    .ball-stone{
-        right: 80px;
-        top: -120px;
-    } 
     .tree-man{
-        right: -70px;
         top: -140px;
         max-width: 75%;
-    }       
+    }    
+    .game-head,.game-text{
+        padding-right: 50px;
+    }   
+    .footer-gap{
+        gap: 75px;
+    }
+    .blue-stone {
+        bottom: -150px;
+    }
+    .start-50{
+        left: 40% !important;
+    }
 }
 @media(max-width:1199px){
     .nav-head{
@@ -59,11 +56,8 @@
         padding-bottom: 60px;
     }    
     .game-head,.game-text{
-        padding-right: 100px;
+        padding-right: 0px;
     }
-    .ball{
-        bottom: -280px;
-    }    
     .market-section{
         padding-bottom: 120px;
     }  
@@ -72,13 +66,16 @@
     }    
     .ball-size{
         width: 75%;
-    }   
+    }  
+    .stone-ball{
+        top: -50px;
+    }     
     .economic-section{
         padding-bottom: 180px;
     }    
     .elfin-card{
         padding: 36px 48px 36px 30px;
-    }    
+    }
     .elfin-gap{
         gap: 10px;
         padding-bottom: 72px;
@@ -96,6 +93,30 @@
         max-width: 40%;
         top: 40%;
     } 
+    .ball-img{
+        bottom: -50px;
+    }    
+    .mini-card-head{
+        font-size: 20px;
+    }
+    .ball-stone{
+        top: -100px;
+    }    
+    .footer-gap{
+        gap:50px
+    }
+    .ball::before,.ball-stone-img::before,.stone-img::before,.blue-img::before{
+        width:60px ;
+        height: 60px;
+        bottom: -14px;
+        left: -10px;    
+    }
+    .start-50{
+        left: 50% !important;
+    }
+    .group-emoji{
+        width:70%;
+    }
 }
 @media(max-width:992px){
     .navbar-toggler-icon{
@@ -116,6 +137,7 @@
     }
     .navbar-brand{
         margin-bottom: 20px;
+        width: 75%;
     }
     .btn-wallet{
         margin-top: 20px;
@@ -175,13 +197,13 @@
         padding: 14px 10px;
     }    
     .card-title,.mini-card-head{
-        font-size: 20px;
+        font-size: 19px;
     }
     .gaming-section{
         padding-top: 100px;
         padding-bottom: 50px;
     }    
-    .game-head,.game-text,.mini-card-text,.mini-text-pad{
+    .mini-card-text,.mini-text-pad{
         padding-right: 0;
     }  
     .dragon{
@@ -193,17 +215,10 @@
         gap: 18px;
         padding: 24px 20px;
     }   
-    .platform-section{
+    .ifo{
         padding: 100px 0;
         margin-bottom: 100px;    
-    }    
-    .stone-ball {
-        top: -750px;
-        right: 0;
-    }    
-    .ball{
-        bottom: -380px;
-    } 
+    }       
     .ball-size{
         width: 50%;
     }    
@@ -218,9 +233,8 @@
         padding-left: 20px;
         padding-bottom: 20px;
     }  
-    .blue-ball{
-        left: 20px;
-        bottom: -350px;
+    .blue-stone{
+        bottom: -100px;
     }
     .economic-section{
         padding-bottom: 140px;
@@ -230,7 +244,7 @@
         height: 24px;
     }
     .elfin-card{
-        padding: 30px 42x 30px 24px;
+        padding: 30px 42px 30px 24px;
     }    
     .elfin-gap{
         padding-bottom: 60px;
@@ -260,7 +274,19 @@
     .tree-man{
         bottom: 0;
         max-width: 75%;
-    }        
+    }      
+    .stone-ball{
+        top: -30px;
+    }       
+    .ball-stone{
+        top: -50px;
+    }   
+    .navbar-toggler{
+        padding: 3px 9px;
+    } 
+    .group-emoji{
+        width: 50%;
+    }
 }
 @media(max-width:768px){
     .btn-wallet{
@@ -320,16 +346,10 @@
         gap: 14px;
         padding: 20px 15px;
     }     
-    .platform-section{
+    .ifo{
         padding: 70px 0;
         margin-bottom: 70px;    
-    }    
-    .ball{
-        bottom: -370px;
-    } 
-    .stone-ball {
-        top: -565px;
-    }   
+    }     
     .market-section{
         padding-bottom: 60px;
     }
@@ -337,14 +357,14 @@
         padding: 15px 0;
         margin-bottom: 75px;
     }   
-    .blue-ball{
-        bottom: -250px;
+    .blue-stone{
+        bottom: -30px;
     }      
     .economic-section{
         padding-bottom: 100px;
     }     
     .elfin-card{
-        padding: 24px 36x 24px 18px;
+        padding: 24px 36px 24px 18px;
     }    
     .elfin-gap{
         padding-bottom: 0px;
@@ -369,8 +389,23 @@
         padding-top: 24px;
     }         
     .tree-man{
-        position: static;
-    }        
+        max-width:50%
+    }      
+    .ball-size{
+        width: 30%;
+    }    
+    .emoji-size{
+        width:40%;
+    }
+    .stone-ball {
+        top: -20px;
+    }
+    .ball::before,.ball-stone-img::before,.stone-img::before,.blue-img::before{
+        width: 50px;
+        height: 50px;
+        top: 0px;
+        left: -10px;
+    }
 }
 @media(max-width:576px){
     .btn-wallet{
@@ -385,12 +420,15 @@
     .navbar-nav{
         gap:20px;
     }
+    .navbar-brand{
+        width: 50%;
+    }
     .bag-icon{
         width: 10px;
         height: 10px;
     }
     .fs-1{
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
     .mini-section{
         padding:50px 0;
@@ -438,13 +476,10 @@
         gap: 10px;
         padding: 16px 10px;
     }      
-    .platform-section{
+    .ifo{
         padding: 50px 0;
         margin-bottom: 50px;    
     }    
-    .ball,.stone-ball,.blue-ball{
-        display: none;
-    }
     .market-section{
         padding-bottom: 40px;
     } 
@@ -456,7 +491,7 @@
         padding-bottom: 60px;
     }     
     .elfin-card{
-        padding: 18px 30x 18px 12px;
+        padding: 18px 30px 18px 12px;
     }    
     .elfin-emoji-card{
         padding: 10px 8px 10px 12px;
@@ -477,4 +512,15 @@
         gap:20px;
         padding-top: 18px;
     }            
+    .ball-img{
+        bottom: 0;
+    }
+    .emoji-size{
+        width: 30%;
+    }
+}
+@media(max-width:400px){
+    .fs-1{
+        font-size: 18px;
+    }
 }
