@@ -18,6 +18,17 @@
     .start-50{
         left: 40% !important;
     }
+    .explore-btn{
+        font-size: 17px;
+        padding: 10px 22px;
+    } 
+    .elfin-card{
+        padding: 20px 15px;
+    }
+    .blue-stone{
+        bottom:-20px;
+    }
+
 }
 @media(max-width:1199px){
     .nav-head{
@@ -71,7 +82,7 @@
         padding-bottom: 180px;
     }    
     .elfin-card{
-        padding: 36px 48px 36px 30px;
+        padding: 10px 10px;
     }
     .elfin-gap{
         gap: 10px;
@@ -103,7 +114,7 @@
         gap:50px
     }
     .ball::before,.ball-stone-img::before,.stone-img::before,.blue-img::before{
-        width:60px ;
+        width: 60px;
         height: 60px;
         bottom: -14px;
         left: -10px;    
@@ -111,8 +122,13 @@
     .start-50{
         left: 50% !important;
     }
-    .group-emoji{
-        width:70%;
+    .img-mini::before{
+        height: 40px;
+        max-width: 40px;
+    }
+    .gold-card{
+        top: 20%;
+        width: 40%;
     }
 }
 @media(max-width:992px){
@@ -133,7 +149,6 @@
         padding-bottom: 10px;
     }
     .navbar-brand{
-        margin-bottom: 20px;
         width: 75%;
     }
     .btn-wallet{
@@ -164,7 +179,7 @@
         padding-bottom: 20px;
     }
     .explore-btn{
-        font-size: 17px;
+        font-size: 16px;
         padding: 10px 22px;
     } 
     .img-content{
@@ -223,15 +238,14 @@
         padding-bottom: 90px;
     }  
     .digital-section{
-        padding: 20px 0;
         margin-bottom: 100px;
+        padding: 100px 0;
     }     
     .digital-pad{
-        padding-left: 20px;
         padding-bottom: 20px;
     }  
     .blue-stone{
-        bottom: -100px;
+        bottom: -70px;
     }
     .economic-section{
         padding-bottom: 140px;
@@ -240,9 +254,6 @@
         width: 24px;
         height: 24px;
     }
-    .elfin-card{
-        padding: 30px 42px 30px 24px;
-    }    
     .elfin-gap{
         padding-bottom: 60px;
     }    
@@ -281,8 +292,13 @@
     .navbar-toggler{
         padding: 3px 9px;
     } 
-    .group-emoji{
-        width: 50%;
+    .gold-card{
+        position:static;
+        width: 90%;
+        margin: auto;
+    }
+    .magic-content{
+        width: 100%;
     }
 }
 @media(max-width:768px){
@@ -312,7 +328,7 @@
         padding-bottom: 16px;
     }
     .explore-btn{
-        font-size: 16px;
+        font-size: 15px;
         padding: 8px 20px;
     }  
     .img-content{
@@ -360,9 +376,6 @@
     .economic-section{
         padding-bottom: 100px;
     }     
-    .elfin-card{
-        padding: 24px 36px 24px 18px;
-    }    
     .elfin-gap{
         padding-bottom: 0px;
     }    
@@ -392,7 +405,7 @@
         width: 30%;
     }    
     .emoji-size{
-        width:40%;
+        width:20%;
     }
     .stone-ball {
         top: -20px;
@@ -400,8 +413,22 @@
     .ball::before,.ball-stone-img::before,.stone-img::before,.blue-img::before{
         width: 50px;
         height: 50px;
-        top: 0px;
-        left: -10px;
+    }
+    .mini-size{
+        width: 10%;
+    }
+    .dragons::before{
+        top: 20px;
+        left: -20px;
+        width: 90%;
+        height: 90%;
+    }
+    .img-mini::before{
+        height: 51px;
+        max-width: 48px;
+    }
+    .digital-section{
+        padding: 80px 0;
     }
 }
 @media(max-width:576px){
@@ -487,9 +514,6 @@
     .economic-section{
         padding-bottom: 60px;
     }     
-    .elfin-card{
-        padding: 18px 30px 18px 12px;
-    }    
     .elfin-emoji-card{
         padding: 10px 8px 10px 12px;
     }    
@@ -513,11 +537,35 @@
         bottom: 0;
     }
     .emoji-size{
-        width: 30%;
+        width: 15%;
+    }
+    .dragons::before{
+        top: 10px;
+        left: -10px;
+    }
+    .img-mini::before{
+        height: 30px;
+        max-width: 30px;
+    }
+    .digital-section{
+        padding: 60px 0;
     }
 }
 @media(max-width:400px){
     .fs-1{
         font-size: 18px;
+    }
+    .dragons::before{
+        top: 5px;
+        left: -5px;
+        width: 80%;
+        height: 80%;
+    }
+    .img-mini::before{
+        height: 21px;
+        max-width: 23px;
+    }
+    .digital-section{
+        padding: 40px 0;
     }
 }
