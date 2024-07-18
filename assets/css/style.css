@@ -452,7 +452,7 @@ body{
   .icon-path{
     fill: #23273B;
   }
-  .icon-path:hover{
+  .icon:hover .icon-path{
     fill: #F6D103;
   }
   .blue-bg{
