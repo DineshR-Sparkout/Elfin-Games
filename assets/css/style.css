@@ -60,7 +60,7 @@ body{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     position: absolute;
-    bottom: -26px;
+    bottom: -25px;
     left: -22px;
 }
 .nav-item{
@@ -74,7 +74,7 @@ body{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     position: absolute;
-    bottom: -26px;
+    bottom: -25px;
     left: -22px;
 }
 .nav-item:hover.nav-item::before{
@@ -82,7 +82,7 @@ body{
 }
 
 .mini-section{
-    padding:87px 0 86px 0;
+    padding:98px 0 99px 0;
     background-image: url(../images/gradient-bg.jpg);
     background-size:50% 100%;
     background-repeat: no-repeat;
@@ -91,9 +91,7 @@ body{
     letter-spacing: -1.2px;
     padding-bottom: 32px;
     line-height: normal;
-}
-.mini-head-pad{
-    padding-right: 20px;
+    font-size: 48px;
 }
 .mini-group {
     position: absolute;
@@ -129,7 +127,7 @@ body{
     line-height: normal;
 }
 .mini-text-pad{
-    padding-right: 85px;
+    padding-right: 170px;
 }
 .explore-btn{
     font-size: 18px;
@@ -174,8 +172,11 @@ body{
     padding-bottom: 72px;
 }
 
-.game-head,.game-text{
-    padding-right: 140px;
+.game-text{
+    padding-right: 100px;
+}
+.asset-text{
+    padding-right: 120px;
 }
 .mini-card{
     gap: 32px;
@@ -227,7 +228,7 @@ body{
     right: 10%;
 }
 .digital-text{
-    padding-right: 150px;
+    padding-right: 170px;
     text-indent: 0;
 }
 .digital-section{

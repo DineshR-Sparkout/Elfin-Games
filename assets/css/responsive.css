@@ -11,7 +11,7 @@
         top: -140px;
         max-width: 75%;
     }    
-    .game-head,.game-text{
+    .game-text,.asset-text{
         padding-right: 50px;
     }   
     .footer-gap{
@@ -66,7 +66,7 @@
         padding-right: 70px;
     }
     .img-content{
-        margin-top: 54px;
+        margin-top: 30px;
         gap: 16px;
     }
     .card-section{
@@ -82,7 +82,7 @@
         padding-top: 120px;
         padding-bottom: 60px;
     }    
-    .game-head,.game-text,.digital-text{
+    .game-text,.asset-text,.digital-text{
         padding-right: 0px;
     }
     .market-section{
@@ -149,6 +149,9 @@
     .mini-eye-text{
         padding-right: 50px;
     }
+    .mini-head{
+        font-size: 42px;
+    }
 }
 @media(max-width:992px){
     .navbar-toggler-icon{
@@ -188,6 +191,7 @@
     } 
     .mini-head{
         padding-bottom: 20px;
+        font-size: 36px;
     }
     .mini-head-pad{
         padding-right:0;
@@ -202,7 +206,6 @@
         padding: 10px 22px;
     } 
     .img-content{
-        margin-top: 40px;
         gap: 14px;
     }  
     .user-para{
@@ -347,6 +350,7 @@
     }    
     .mini-head{
         padding-bottom: 16px;
+        font-size: 30px;
     }
     .mini-text{
         font-size: 15px;
@@ -356,9 +360,6 @@
         font-size: 15px;
         padding: 8px 20px;
     }  
-    .img-content{
-        margin-top: 30px;
-    }     
     .user-para{
         font-size: 16px;
     }
@@ -485,6 +486,7 @@
     }    
     .mini-head{
         padding-bottom: 12px;
+        font-size: 24px;
     }
     .mini-text{
         font-size: 14px;
@@ -598,5 +600,8 @@
     }
     .owl-stage{
         gap: 10px;
+    }
+    .mini-head{
+        font-size: 20px;
     }
 }
