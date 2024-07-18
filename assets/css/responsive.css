@@ -327,6 +327,11 @@
         left: -10px;
         width: 20%;
     }    
+    .nav-item.active::before{
+        bottom: -10px;
+        left: -10px;
+        width: 20%;
+    }
 }
 @media(max-width:768px){
     .btn-wallet{
