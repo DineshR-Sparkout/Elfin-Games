@@ -19,6 +19,7 @@ body{
 .nav-text{
     color: rgba(35, 39, 59, 0.70);
     padding-bottom: 22px;
+    line-height: normal;
 }
 .dropdown-item{
     background-color:white;
@@ -41,6 +42,7 @@ body{
     padding:8px 25px;
     background-color:  #F6D103;
     color:  #23273B;
+    line-height: normal;
 }
 .btn-wallet:hover,.explore-btn:hover{
     color: #F6D103;
@@ -61,6 +63,24 @@ body{
     bottom: -26px;
     left: -22px;
 }
+.nav-item{
+    position: relative;
+}
+.nav-item::before{
+    content: "";
+    width: 110px;
+    height: 4px;
+    background-color: transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: absolute;
+    bottom: -26px;
+    left: -22px;
+}
+.nav-item:hover.nav-item::before{
+    background-color: #F6D103;
+}
+
 .mini-section{
     padding:87px 0 86px 0;
     background-image: url(../images/gradient-bg.jpg);
@@ -70,6 +90,7 @@ body{
 .mini-head{
     letter-spacing: -1.2px;
     padding-bottom: 32px;
+    line-height: normal;
 }
 .mini-head-pad{
     padding-right: 20px;
@@ -105,6 +126,7 @@ body{
     font-size: 18px;
     text-indent: 35px;
     padding-bottom: 32px;
+    line-height: normal;
 }
 .mini-text-pad{
     padding-right: 85px;
@@ -114,6 +136,7 @@ body{
     color: #23273B;
     padding: 12px 25px;
     background-color: #F6D103;
+    line-height: normal;
 }
 .img-content{
     margin-top: 58px;
@@ -122,6 +145,7 @@ body{
 .user-para{
     font-size: 20px;
     color: #2E2F3A;
+    line-height: normal;
 }
 .user-group{
     gap: 19px;
@@ -138,9 +162,12 @@ body{
     color: #23273B;
     font-size: 28px;
     font-family: "Rubik", sans-serif;
+    line-height: normal;
 }
 .card-text{
     color: rgba(35, 39, 59, 0.70);
+    line-height: normal;
+
 }
 .gaming-section{
     padding-top: 150px;
@@ -163,6 +190,7 @@ body{
 .mini-card-head{
     font-size: 22px;
     color: #23273B;
+    line-height: normal;
 }
 .mini-card-text{
     color: rgba(35, 39, 59, 0.70);
@@ -180,14 +208,15 @@ body{
 }
 .ifo{
     padding: 150px 0;
-    margin-bottom: 150px;
 }
 .ball-img{
     bottom: -100px;
+    display: none;
 }
 .ball{
     width: 100%;
     height: 100%;
+    display: none;
 }
 .stone-img{
     position: relative;
@@ -203,8 +232,7 @@ body{
 }
 .digital-section{
     background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
-    margin-bottom: 150px;
-    padding: 123px 0;
+    padding: 123px 0 270px 0;
 }
 .gold-card{
     position: absolute;
@@ -249,6 +277,12 @@ body{
     z-index: -3;
     border-radius: 16px;
 }
+.elfin-eye-card{
+    padding: 42px 19px 13px 32px;
+}
+.mini-eye-text{
+    padding-right: 100px;
+}
 .elfin-emoji-card{
     padding: 18px 16px 19px 32px;
 }
@@ -263,6 +297,7 @@ body{
 }
 .footer-top-section{
     padding: 25px 0 23px 0;
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
 }
 .footer{
     background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
@@ -276,7 +311,7 @@ body{
     line-height: 24px;
 }
 .footer-gap{
-    gap:100px;
+    gap:76px;
     padding-top: 42px;
 }
 .copyright{
@@ -388,10 +423,12 @@ body{
     height: 119px;
     opacity: 0.75;
     filter: blur(60px);
+    display: none;
 }
 .blue-img{
     position: relative;
     z-index: 1;
+    display: none;
 }
 .owl-item > div {
     cursor: pointer;
@@ -434,6 +471,7 @@ body{
   }
   .partner-img{
     max-height: 64px;
+    width: auto;
   }
 .img-mini{
     position: relative;
@@ -458,7 +496,14 @@ body{
 }
 .blue-stone{
     bottom: -100px;
+    display: none;
 }
 .card-row{
     gap: 20px;
+}
+.owl-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
 }
