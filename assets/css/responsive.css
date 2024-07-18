@@ -566,6 +566,9 @@
     .owl-stage{
         gap: 20px;
     }
+    .ball-stone {
+        top: -40px;
+    }
 
 }
 @media(max-width:400px){
