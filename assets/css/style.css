@@ -246,7 +246,7 @@ body{
 }
 .elfin-gap{
     gap: 12px;
-    padding-bottom: 86px;
+    padding-bottom: 16px;
 }
 .white-btn{
     background-color: white;
@@ -299,6 +299,8 @@ body{
 }
 .footer-top-section{
     padding: 25px 0 23px 0;
+}
+.footer-section{
     background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
 }
 .footer{

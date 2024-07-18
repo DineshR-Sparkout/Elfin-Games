@@ -94,7 +94,6 @@
     }    
     .elfin-gap{
         gap: 10px;
-        padding-bottom: 72px;
     }    
     .elfin-emoji-card{
         padding: 16px 14px 16px 30px;
@@ -261,9 +260,6 @@
         width: 24px;
         height: 24px;
     }
-    .elfin-gap{
-        padding-bottom: 60px;
-    }    
     .elfin-emoji-card{
         padding: 14px 12px 14px 24px;
     }    
