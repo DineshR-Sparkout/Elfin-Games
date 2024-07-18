@@ -147,7 +147,7 @@
         font-size: 42px;
     }
 }
-@media(max-width:992px){
+@media(max-width:991px){
     .navbar-toggler-icon{
         height: 20px;
         width: 20px;
@@ -320,7 +320,7 @@
         width: 20%;
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .btn-wallet{
         padding:6px 16px;
     }
@@ -447,7 +447,7 @@
         gap: 30px;
     }
 }
-@media(max-width:576px){
+@media(max-width:575px){
     .btn-wallet{
         padding: 5px 12px;
     }
